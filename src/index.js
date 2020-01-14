@@ -1,6 +1,10 @@
 import {increment,decrement} from './js/a.js';
 import {name} from './js/b.js';
-import './index.less'
+import './index.less';
+import logo from './image/one.jpg';
+// let image = new Image();
+// image.src = logo;
+// document.body.innerHTML = image;
 let result = increment(2, 5);
 let result2 = decrement(3, 1);
 let result3 = name('古天乐', '王祖贤');
